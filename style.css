@@ -362,6 +362,14 @@ header ul a:hover{
     object-fit: cover;
 }
 
+#glob-img {
+    margin-top: 10%;
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+    mix-blend-mode: lighten;
+}
+
 .card video{
     margin-top: 10%;
     width: 70%;
@@ -993,9 +1001,12 @@ header ul a:hover{
         bottom: 25%;
     }
 
+    #glob-img {
+        height: 60%;
+        margin-top: 5%;
+    }
     .card video{
         height: 60%;
-
         margin-top: 5%;
     }
 
